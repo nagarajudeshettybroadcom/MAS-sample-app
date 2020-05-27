@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright (c) 2016 CA. All rights reserved.
+  ~
+  ~ This software may be modified and distributed under the terms
+  ~ of the MIT license.  See the LICENSE file for details.
+  ~
+  -->
+
+<resources>
+    <string name="app_name">MAS Sample</string>
+    <string name="title_group_detail">Group Details</string>
+    <string name="title_activity_search">Add Users</string>
+
+    <string name="acc_name">My Account</string>
+    <string name="authenticator_label">CA</string>
+    <string name="login_dialogue_user_edit_text_textvalue">spock</string>
+    <string name="login_dialogue_pass_edit_text_textvalue">StRonG5^)</string>
+</resources>

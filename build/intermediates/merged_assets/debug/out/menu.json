@@ -1,0 +1,176 @@
+{
+
+  "list":  [
+    {
+      "name":"MAS Lifecycle",
+      "submenu": [
+        {
+          "menu": "MAS Start",
+          "type": "hiddenTextview"
+        },
+        {
+          "menu": "MAS Login",
+          "type": "hiddenTextview",
+          "inputTextRequired" : true,
+          "inputTextRequiredTwo" : true,
+          "showOutPut": false,
+          "hint": "User Name",
+          "hintTwo": "Password"
+        },
+        {
+          "menu": "MAS Logout",
+          "type": "hiddenTextview",
+          "inputTextRequired" : false,
+          "inputTextRequiredTwo" : false,
+          "showOutPut": false
+        },
+        {
+          "menu": "Get Products",
+          "type": "hiddenTextview",
+          "showOutPut": false
+        },
+        {
+          "menu": "otpProtected",
+          "type": "hiddenTextview"
+        },
+        {
+          "menu": "MAS Stop",
+          "type": "hiddenTextview"
+        }
+      ]
+    },
+    {
+      "name":"MAS UI Customization",
+      "submenu": [
+        {
+          "menu": "Use Native MASUI",
+          "type": "hiddenTextview"
+        },
+        {
+          "menu": "MAS set custom login page",
+          "type": "inputtextview",
+          "inputTextRequired" : true,
+          "showOutPut": false,
+          "hint": "LoginPageName"
+        },
+        {
+          "menu": "MAS set custom OTP Channels page",
+          "type": "inputtextview",
+          "inputTextRequired" : true,
+          "showOutPut": false,
+          "hint": "otpChannelsPageName"
+        },
+        {
+          "menu": "MAS set custom OTP page",
+          "type": "inputtextview",
+          "inputTextRequired" : true,
+          "showOutPut": false,
+          "hint": "otpPageName"
+        }
+      ]
+    },
+    {
+      "name":"MAS User",
+      "submenu": [
+        {
+          "menu": "MASUser getCurrentUser",
+          "type": "hiddenTextview"
+        },
+        {
+          "menu": "MASUser getUsername",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASUser isSessionLocked",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASUser LockSession",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASUser unLockSession",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASUser getAccessToken",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASUser isAuthenticated",
+          "type": "inputtextview"
+        }
+      ]
+    },
+    {
+      "name":"MAS Device",
+      "submenu": [
+        {
+          "menu": "MASDevice isDeviceRegistered",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASDevice getDeviceIdentifier",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "MASDevice resetLocally",
+          "type": "inputtextview"
+        }
+      ]
+    },
+    {
+      "name":"Upload Image",
+      "submenu": [
+        {
+          "menu": "Upload",
+          "type": "inputtextview"
+        }
+      ]
+    },
+    {
+      "name":"Social Login",
+      "submenu": [
+        {
+          "menu": "Login",
+          "type": "inputtextview"
+        }
+      ]
+    },
+    {
+      "name":"External APIs",
+      "submenu": [
+        {
+          "menu": "https://swapi.co:443",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "http://api.plos.org",
+          "type": "inputtextview"
+        }
+      ]
+    },
+    {
+      "name":"Proximity Login",
+      "submenu": [
+        {
+          "menu": "Scan QR Code",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "Show QR Code",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "Bluetooth",
+          "type": "inputtextview"
+        },
+        {
+          "menu": "NFC",
+          "type": "inputtextview"
+        }
+      ]
+    }
+  ]
+
+}

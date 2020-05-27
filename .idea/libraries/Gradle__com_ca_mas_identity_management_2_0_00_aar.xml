@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ca:mas-identity-management:2.0.00@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ddb3cf5104d0ae14723def849f06850/mas-identity-management-2.0.00/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ddb3cf5104d0ae14723def849f06850/mas-identity-management-2.0.00/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ca/mas-identity-management/2.0.00/f08f653efa2cf4b1ccf59591a95f759f04129b7/mas-identity-management-2.0.00-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ca/mas-identity-management/2.0.00/dffecebc4ca004b53956dc87f3ead268dbe36724/mas-identity-management-2.0.00-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

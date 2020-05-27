@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/login_dialogue_layout_padding">
+
+    <EditText
+        android:id="@+id/usernametextfield"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_dialogue_user_edit_text_height"
+        android:hint="Enter  UserID"
+        android:paddingLeft="@dimen/login_dialogue_user_edit_text_padding_left"
+        android:text="@string/login_dialogue_user_edit_text_textvalue"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="@dimen/login_dialogue_user_edit_text_margin_bottom"/>
+
+    <EditText
+        android:id="@+id/passwordtextfield"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_dialogue_pass_edit_text_height"
+        android:paddingLeft="@dimen/login_dialogue_pass_edit_text_padding_left"
+        android:text="@string/login_dialogue_pass_edit_text_textvalue"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext"/>
+
+<!--    <Button-->
+<!--            android:id="@+id/textView1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Type Your Message : "-->
+<!--            android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+</LinearLayout>
