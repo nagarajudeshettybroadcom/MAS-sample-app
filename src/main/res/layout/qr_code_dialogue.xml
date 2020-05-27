@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_edittext"
+    android:layout_margin="@dimen/qr_code_dialogue_layout_margin">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/qrcodeimageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qr_code_dialogue_image_view_margin_top"
+        android:layout_marginBottom="@dimen/qr_code_dialogue_image_view_margin_bottom"
+        />
+
+</LinearLayout>

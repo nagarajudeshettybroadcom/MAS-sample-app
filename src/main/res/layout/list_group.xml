@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_group_layout_background_color">
+    <TextView
+        android:id="@+id/listTitle"
+        android:layout_margin="@dimen/list_group_margin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="@android:color/black"
+        android:background="@color/list_group_backgroud_color"
+        android:paddingTop="@dimen/list_group_paddig_top"
+        android:paddingBottom="@dimen/list_group_paddig_bottom" />
+</LinearLayout>
